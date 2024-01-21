@@ -5,16 +5,19 @@
 
 h1 {
     font-family: "gimlet-text", serif;
-    letter-spacing: -4px;
+    letter-spacing: 0px;
     font-weight: 400;
     font-style: normal;
+    color: #cac7b8;
+    font-size: 1.5rem !important;
 }
 
 p {
     font-family: "gimlet-text", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    color: white;
 }
 
 .justify-text-last {
@@ -22,44 +25,35 @@ p {
     text-align-last: justify;
 }
 
-.tiny-text {
-    font-size: 0.5rem;
-    color: rgb(237, 237, 237);
-    font-weight: 700;
+.justify-text {
+    text-align: justify;   
 }
 
 
-.vertical-text {
-    writing-mode: vertical-rl; /* right-to-left vertical */
-    text-orientation: upright; /* upright orientation */
-    white-space: nowrap; /* prevent text from wrapping */
-  }
-/* Style the section and make it relative for positioning */
-.video-section {
+/* .vertical-text {
+    writing-mode: vertical-lr; 
+    text-orientation: upright;
+    white-space: nowrap;
+} */
+
+
+.diagonal-line {
     position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 100vh; /* Adjust the height as needed */
+    width: 200px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
 }
 
-/* Style the video element */
-#background-video {
+.diagonal-line::before {
+    content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: 300px;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Adjust video sizing as needed */
-    z-index: -1; /* Place video behind content */
-    opacity: 0.7;
-}
-
-/* Style the content within the section */
-.content {
-    position: relative;
-    z-index: 1; /* Place content in front of the video */
-    padding: 20px; /* Adjust padding as needed */
-    color: #fff; /* Set text color */
+    background: transparent;
+    border-left: solid 1px #606364; /* Line color and thickness */
+    transform: rotate(52deg); /* Adjust angle here */
+    transform-origin: 0 0;
 }
 
 /* Loading screen styles */
@@ -94,4 +88,22 @@ p {
 /* Loading text styles */
 .loader p {
     color: white;
+}
+
+.sound-options button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.sound-options {
+    text-align: center;
 }
