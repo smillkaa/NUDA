@@ -13,15 +13,19 @@ h1 {
     max-width: max-content;
 }
 
-p, nav a {
+p, nav a, .explore a {
     font-family: "acumin-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 0.7rem;
     color: rgb(197, 196, 196);
-    letter-spacing: 3px;
     text-decoration: none;
     margin-bottom: 0;
+    max-width: max-content;
+}
+
+.hero p, nav a {
+    letter-spacing: 3px;
 }
 
 .dark-grey {
