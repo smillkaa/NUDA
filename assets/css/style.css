@@ -4,20 +4,28 @@
 }
 
 h1 {
-    font-family: "gimlet-text", serif;
-    letter-spacing: 0px;
+    font-family: "gimlet-micro", serif;
+    letter-spacing: -2px;
     font-weight: 400;
     font-style: normal;
     color: #cac7b8;
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
+    max-width: max-content;
 }
 
-p {
-    font-family: "gimlet-text", serif;
+p, nav a {
+    font-family: "acumin-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 0.7rem;
-    color: white;
+    color: rgb(197, 196, 196);
+    letter-spacing: 3px;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.dark-grey {
+    color: #353535;
 }
 
 .justify-text-last {
@@ -30,24 +38,25 @@ p {
 }
 
 
-/* .vertical-text {
+.vertical-text {
     writing-mode: vertical-lr; 
     text-orientation: upright;
     white-space: nowrap;
-} */
+}
 
 
 .diagonal-line {
     position: relative;
-    width: 200px; /* Adjust as needed */
-    height: 400px; /* Adjust as needed */
+    width: 1px; /* Adjust as needed */
+    height: 390px; /* Adjust as needed */
+    z-index: -1;
 }
 
 .diagonal-line::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 300px;
+    top: -35px;
+    left: 745px;
     width: 100%;
     height: 100%;
     background: transparent;
@@ -106,4 +115,22 @@ p {
 
 .sound-options {
     text-align: center;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        margin-left: 150px;
+    }
 }
