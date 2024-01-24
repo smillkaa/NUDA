@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+section {
+    background-image: url('https://res.cloudinary.com/dyve8u6cx/image/upload/v1705803525/BACKGROUND_NUDA_WEBSITE_xyotoc.png');
+    background-size: cover;
+}
+
 h1 {
     font-family: "gimlet-micro", serif;
     letter-spacing: -2px;
