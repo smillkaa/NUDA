@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition: 0.3s;
 }
 
 section {
@@ -48,6 +49,10 @@ p, nav a, .explore a {
     color: rgb(197, 196, 196);
 }
 
+
+.art-hero a:hover, .explore a:hover, nav a:hover, .exhibition-nav-link:hover {
+    color: rgb(197, 196, 196);
+}
 .dark-grey {
     color: #353535;
 }
@@ -226,14 +231,20 @@ p, nav a, .explore a {
     .art-hero {
         min-height: 100vh;
     }
+    .project-text-bottom {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .project-text-top {
+        padding: 20px;
+        padding-top: 0;
+    }
 }
 
 @media screen and (min-width: 800px) {
     .project-intro-section {
         min-height: 110vh;
     }
-
-   
 
     
 }
