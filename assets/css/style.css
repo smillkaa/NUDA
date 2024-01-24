@@ -165,6 +165,7 @@ p, nav a, .explore a {
     align-items: center;
     justify-content: center;
 }
+
 .project-intro-section {
     min-height: 80vh;
     display: flex;
@@ -208,20 +209,33 @@ p, nav a, .explore a {
     text-align-last: justify;
     margin-bottom: 0;
 }
+
+#pilares-link {
+    margin-right: 75px;
+}
 @media screen and (min-width: 768px) {
     h1 {
         margin-left: 150px;
     }
+    .art-hero-image {
+        margin-top: -100px;
+    }
+    .exhibition-nav, .exhibition-text {
+        padding-right: 50px !important;
+    }
+    .art-hero {
+        min-height: 100vh;
+    }
 }
 
 @media screen and (min-width: 800px) {
-    .intro-section {
+    .project-intro-section {
         min-height: 110vh;
     }
 
-    #pilares-link {
-        margin-right: 75px;
-    }
+   
+
+    
 }
 
 @media screen and (max-width: 768px) {
