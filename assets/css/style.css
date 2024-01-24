@@ -149,8 +149,17 @@ p, nav a, .explore a {
     width: 60%;
 }
 
+.intro-section {
+    min-height: 100vh;
+}
 @media screen and (min-width: 768px) {
     h1 {
         margin-left: 150px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .intro-section {
+        min-height: 110vh;
     }
 }
