@@ -429,12 +429,15 @@ p, nav a, .explore a {
 @media screen and (max-width: 768px) {
 
     .hero {
-        padding-top: 10px;
+        padding-top: 120px;
     }
 
+    .menu-container {
+        padding-right: 15px;
+    }
 
     .explore {
-        padding-bottom: 100px;
+        padding: 0 25vw 100px 25vw;
     }
 
     .homepage-intro-title-container {
@@ -526,8 +529,8 @@ p, nav a, .explore a {
         margin-right: 20px;
     }
     .footer-nav-item {
-        text-align: end;
-        margin-left: auto;
+        margin-left: 20px;
+        
     }
     .footer-line {
         width: 10%;
