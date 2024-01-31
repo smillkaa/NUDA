@@ -326,12 +326,23 @@ p, nav a, .explore a {
         width: 50%;
     }
 
+    .homepage-img-container img {
+        padding: 3rem
+    }
+
     .homepage-title-container {
         position: relative;
         left: 100px;
         width: 50%;
     }
+    .nav-container {
+        padding-bottom: 20px;
+        margin-right: 15px;
+    }
 
+    .line-art-bg {
+        background-position: calc(50% + 20px) center;
+    }
 
     h1 {
         margin-left: 150px;
@@ -374,8 +385,21 @@ p, nav a, .explore a {
         width: 100%;
     }
 
+    .homepage-img-container img {
+        padding: 1rem 0.1rem 0 1.2rem;
+    }
+
     .homepage-title-container {
         width: 100%;
+    }
+
+    .nav-container {
+        padding-bottom: 29px;
+        padding-right: 40px;
+    }
+
+    .line-art-bg {
+        background-position: center;
     }
 
     .project-text-top {
