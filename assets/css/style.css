@@ -134,7 +134,7 @@ p, nav a, .explore a {
 }
 
 .hero p, nav a {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .art-hero a {
@@ -146,7 +146,8 @@ p, nav a, .explore a {
     color: rgb(197, 196, 196);
 }
 .dark-grey {
-    color: #353535;
+    color: #525252;
+    font-weight: 700;
 }
 
 .justify-text-last {
@@ -326,6 +327,8 @@ p, nav a, .explore a {
     }
 
     .homepage-title-container {
+        position: relative;
+        left: 100px;
         width: 50%;
     }
 
