@@ -339,6 +339,15 @@ p, nav a, .explore a {
 .footer-line {
     width: 50%;
 }
+.homepage-description-container {
+    padding-top: 250px;
+}
+.homepage-description-row {
+    padding-top: 180px;
+}
+.homepage-description-container-inner {
+    margin-top: 100px;
+}
 @media screen and (min-width: 768px) {
     .hero {
         padding-top: 20px;
@@ -397,6 +406,9 @@ p, nav a, .explore a {
     .project-text-top {
         padding: 20px;
         padding-top: 0;
+    }
+    .description-section {
+        min-height: 100vh; 
     }
     .footer-nav-item {
         margin-left: 30px;
@@ -477,6 +489,23 @@ p, nav a, .explore a {
 
     .project-image-small { 
         padding-bottom: 85px;
+    }
+
+    .homepage-description-container {
+        padding-top:0px;
+        
+    }
+    .homepage-description-row {
+        padding-top:0px;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .homepage-description-container-inner {
+        margin-top: 100px;
+    }
+
+    .description-section {
+        padding-top: 150px;
     }
 
     .footer-container {
