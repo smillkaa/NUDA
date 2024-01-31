@@ -413,6 +413,9 @@ p, nav a, .explore a {
     .footer-nav-item {
         margin-left: 30px;
     }
+    .explore {
+        min-height: 100vh;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -429,6 +432,10 @@ p, nav a, .explore a {
         padding-top: 10px;
     }
 
+
+    .explore {
+        padding-bottom: 100px;
+    }
 
     .homepage-intro-title-container {
         display: block;
