@@ -436,6 +436,9 @@ p, nav a, .explore a {
         padding-right: 15px;
     }
 
+    .number-vertical {
+        letter-spacing: 0px;
+    }
     .explore {
         padding: 0 25vw 100px 25vw;
     }
@@ -480,8 +483,8 @@ p, nav a, .explore a {
     }
 
     .dark-grey {
-        color: #3a3a3a;
-        font-weight: 700;
+        color: #2d2d2d;
+        font-weight: 400;
     }
 
     .line-art-bg {
