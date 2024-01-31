@@ -133,7 +133,7 @@ p, nav a, .explore a {
     max-width: max-content;
 }
 
-.hero p, nav a {
+.number-horizontal, nav a {
     letter-spacing: 2px;
 }
 
@@ -315,7 +315,27 @@ p, nav a, .explore a {
 #pilares-link {
     margin-right: 75px;
 }
+
+.number-horizontal {
+    position: relative;
+    left: 30px;
+    bottom: 3px;
+}
+
+.number-vertical {
+    position: relative; z-index: 1;top: 170px;margin-left: 110%;letter-spacing: -3px;
+}
 @media screen and (min-width: 768px) {
+    .hero {
+        padding-top: 20px;
+    }
+
+    .hero h1 {
+        position: relative;
+        left: 125px;
+        padding: 3rem;
+    }
+
     .homepage-intro-title-container {
         display: flex;
         align-items: end;
@@ -331,8 +351,7 @@ p, nav a, .explore a {
     }
 
     .homepage-title-container {
-        position: relative;
-        left: 100px;
+        
         width: 50%;
     }
     .nav-container {
@@ -342,6 +361,7 @@ p, nav a, .explore a {
 
     .line-art-bg {
         background-position: calc(50% + 20px) center;
+        height: 250px;
     }
 
     h1 {
@@ -376,6 +396,11 @@ p, nav a, .explore a {
 
 @media screen and (max-width: 768px) {
 
+    .hero {
+        padding-top: 10px;
+    }
+
+
     .homepage-intro-title-container {
         display: block;
 
@@ -386,11 +411,18 @@ p, nav a, .explore a {
     }
 
     .homepage-img-container img {
-        padding: 1rem 0.1rem 0 1.2rem;
+        padding: 0 0 0 0;
     }
 
     .homepage-title-container {
+        margin-top: 150px;
+        margin-bottom: 4%;
+        padding-right: 5%;
         width: 100%;
+    }
+
+    .homepage-title-container h1 {
+        margin-left: auto ;
     }
 
     .nav-container {
@@ -398,8 +430,24 @@ p, nav a, .explore a {
         padding-right: 40px;
     }
 
+    .number-horizontal {
+        position: relative;
+        left: 18px;
+        bottom: 3px;
+    }
+    
+    .number-vertical {
+        top: 90px;
+    }
+
+    .dark-grey {
+        color: #3a3a3a;
+        font-weight: 700;
+    }
+
     .line-art-bg {
         background-position: center;
+        height: 120px;
     }
 
     .project-text-top {
