@@ -9,6 +9,98 @@ section {
     background-size: cover;
 }
 
+/* menu */
+.menu-container {
+    position: absolute; /* or 'fixed' based on your layout */
+    top: 0;
+    right: 0;
+    padding-right: 80px;
+    padding-top: 50px;
+    /* Add more styling as needed */
+}
+
+/* Ensure the container does not affect the layout */
+.menu-container {
+    position: absolute; /* or 'fixed' depending on your layout */
+    top: 0;
+    right: 0;
+    /* Add more styling as needed */
+}
+
+.menu-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    display: none;
+    color: rgb(197, 196, 196);
+    max-width: max-content;
+    border: 1px solid red;
+}
+
+.menu-items li {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: transform 0.5s, opacity 0.5s;
+    max-width: max-content;
+    /* Add more styling as needed */
+}
+
+.menu-items li a {
+    color: rgb(197, 196, 196);
+    font-size: 0.8rem;
+}
+
+.menu-container.active .menu-items {
+    display: block;
+}
+
+.menu-toggle {
+    color: rgb(197, 196, 196);
+    font-size: 0.8rem;
+    max-width: max-content;
+}
+
+/* Mobile specific styles */
+@media (max-width: 768px) {
+    .menu-container.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: black;
+        z-index: 1000;
+    }
+
+    .menu-toggle.x {
+        /* Transform menu into 'X' - add your styles here */
+    }
+}
+
+
+/* Mobile specific styles */
+@media (max-width: 768px) {
+    .menu-container.active {
+        /* Styles for black screen */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: black;
+        z-index: 1000;
+    }
+
+    .menu-toggle.x {
+        /* Transform menu into 'X' */
+    }
+}
+
+
 h1 {
     font-family: "gimlet-micro", serif;
     letter-spacing: -2px;
@@ -183,8 +275,12 @@ p, nav a, .explore a {
 }
 
 .project-intro-subtitle-text {
-    text-align: center;
-    max-width: 500px;
+    max-width: 300px;
+    margin-top: 50px;
+}
+
+.project-intro-subtitle-text p {
+    line-height: 40px;
 }
 
 .project-description-section {
@@ -219,6 +315,21 @@ p, nav a, .explore a {
     margin-right: 75px;
 }
 @media screen and (min-width: 768px) {
+    .homepage-intro-title-container {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .homepage-img-container {
+        width: 50%;
+    }
+
+    .homepage-title-container {
+        width: 50%;
+    }
+
+
     h1 {
         margin-left: 150px;
     }
@@ -250,6 +361,20 @@ p, nav a, .explore a {
 }
 
 @media screen and (max-width: 768px) {
+
+    .homepage-intro-title-container {
+        display: block;
+
+    }
+
+    .homepage-img-container {
+        width: 100%;
+    }
+
+    .homepage-title-container {
+        width: 100%;
+    }
+
     .project-text-top {
         padding: 85px 0;
     }
@@ -261,4 +386,8 @@ p, nav a, .explore a {
     .project-image-small { 
         padding-bottom: 85px;
     }
+
+   
 }
+
+
