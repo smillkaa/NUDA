@@ -265,9 +265,9 @@ p, nav a, .explore a {
 }
 
 .project-intro-section {
-    min-height: 80vh;
+    min-height: 70vh;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -302,8 +302,7 @@ p, nav a, .explore a {
 }
 
 .project-image-small {
-    height: 200px;
-    width: 200px;
+    width:100%;
 }
 
 .project-text-bottom {
@@ -400,8 +399,7 @@ p, nav a, .explore a {
         min-height: 100vh;
     }
     .project-text-bottom {
-        padding: 20px;
-        padding-bottom: 0;
+       
     }
     .project-text-top {
         padding: 20px;
@@ -493,11 +491,11 @@ p, nav a, .explore a {
     }
 
     .project-text-top {
-        padding: 85px 0;
+        padding: 85px 0px;
     }
 
     .project-text-bottom {
-        padding: 0 30px;
+        padding: 85px 0px 0px 0px;
     }
 
     .project-image-small { 
@@ -539,5 +537,4 @@ p, nav a, .explore a {
         width: 10%;
     }
 }
-
 
