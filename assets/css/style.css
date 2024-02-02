@@ -5,7 +5,7 @@
 }
 
 section {
-    background-image: url('../images/BACKGROUND\ NUDA\ WEBSITE.png');
+    background-image: url('../images/BACKGROUND-IMAGE.jpg');
     background-size: cover;
 }
 
@@ -51,7 +51,7 @@ section {
 
 .menu-items li a {
     color: rgb(197, 196, 196);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .menu-container.active .menu-items {
@@ -60,7 +60,7 @@ section {
 
 .menu-toggle {
     color: rgb(197, 196, 196);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     max-width: max-content;
 }
 
@@ -112,10 +112,10 @@ h1 {
 }
 
 h2 {
-    font-family: "gimlet-micro", serif;
+    font-family: "minion-pro", serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 0.7rem !important;
+    font-style: italic;
+    font-size: 0.9rem !important;
     color: rgb(197, 196, 196);
     text-decoration: none;
     margin-bottom: 0;
@@ -126,7 +126,7 @@ p, nav a, .explore a {
     font-family: "acumin-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color: rgb(197, 196, 196);
     text-decoration: none;
     margin-bottom: 0;
@@ -312,7 +312,7 @@ p, nav a, .explore a {
 }
 
 #pilares-link {
-    margin-right: 75px;
+    margin-right: 95px;
 }
 
 .number-horizontal {
